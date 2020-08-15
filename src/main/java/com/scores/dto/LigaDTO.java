@@ -9,6 +9,4 @@ public class LigaDTO {
 
     private Long id;
     private String naziv;
-    private ZemljaDTO zemlja;
-    private SportDTO sport;
 }
