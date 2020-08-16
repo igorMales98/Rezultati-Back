@@ -1,6 +1,6 @@
 package com.scores.model;
 
-import com.scores.enummeration.PozicijaFudbal;
+import com.scores.enummeration.PozicijaKosarka;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -11,13 +11,13 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Fudbaler extends Igrac {
+public class Kosarkas extends Igrac {
 
     @Column
     @Enumerated(value = EnumType.STRING)
-    private PozicijaFudbal pozicija;
+    private PozicijaKosarka pozcija;
 
     @ManyToOne
-    @JoinColumn(name = "fudbalski_klub_id")
-    private FudblaskiKlub fudblaskiKlub;
+    @JoinColumn(name = "kosarkaski_klub_id")
+    private KosarkaskiKlub kosarkaskiKlub;
 }

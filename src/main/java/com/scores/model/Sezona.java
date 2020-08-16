@@ -5,27 +5,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 
-@MappedSuperclass
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
-public class Igrac {
+public class Sezona {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column
-    private String ime;
+    private Short godina;
 
-    @Column
-    private String prezime;
-
-    @Column
-    private LocalDate datumRodjenja;
-
-    @ManyToOne
-    private Zemlja zemljaRodjenja;
 }

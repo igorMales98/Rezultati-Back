@@ -7,11 +7,11 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@MappedSuperclass
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
-public class Igrac {
+public class Trener {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,8 +24,12 @@ public class Igrac {
     private String prezime;
 
     @Column
-    private LocalDate datumRodjenja;
+    private LocalDate godinjaRodjenja;
 
     @ManyToOne
-    private Zemlja zemljaRodjenja;
+    private Zemlja zemlja;
+
+    @ManyToOne
+    private Sport sport;
+
 }
