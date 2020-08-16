@@ -210,3 +210,14 @@ INSERT INTO `scores`.`zemlja` (`id`, `naziv`) VALUES ('122', 'Vels');
 INSERT INTO `scores`.`zemlja` (`id`, `naziv`) VALUES ('123', 'Zambija');
 INSERT INTO `scores`.`zemlja` (`id`, `naziv`) VALUES ('124', 'Zimbabve');
 
+/*TRENERI*/
+INSERT INTO `scores`.`trener` (`id`, `godinja_rodjenja`, `ime`, `prezime`, `sport_id`, `zemlja_id`) VALUES ('1', '1998-01-19', 'Igor', 'Males', '1', '105');
+INSERT INTO `scores`.`trener` (`id`, `godinja_rodjenja`, `ime`, `prezime`, `sport_id`, `zemlja_id`) VALUES ('2', '1997-03-15', 'Petar', 'Curc', '1', '105');
+
+/*FK*/
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('1', 'Indjija', '1', '105');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('2', 'Curug', '2', '105');
+
+/*FUDBALSKI_REZULTAT*/
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`) VALUES ('1', '2020-08-18 22:00:00.000000', '1', '2');
+
