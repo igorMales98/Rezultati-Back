@@ -26,5 +26,16 @@ public class FudbalskiRezultat {
     @ManyToOne
     private FudblaskiKlub gost;
 
-    // sezona, golovi, dodatni info ?
+    @ManyToOne
+    private Liga liga;
+
+    @ManyToOne
+    private Sezona sezona;
+
+    @Column
+    private Short goloviDomacin;
+
+    @Column
+    private Short goloviGost;
+
 }
