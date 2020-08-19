@@ -6,8 +6,8 @@ public enum PozicijaFudbal {
     DESNI_BEK,
     ŠTOPER,
     ZADNJI_VEZNI,
-    CENTRALI_VEZNI,
-    OFANIZIVNI_VEZNI,
+    CENTRALNI_VEZNI,
+    OFANZIVNI_VEZNI,
     KRILO,
     POLUŠPIC,
     CENTARFOR

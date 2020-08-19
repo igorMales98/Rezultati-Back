@@ -20,7 +20,4 @@ public class Sport {
     @Column
     private String naziv;
 
-    @OneToMany(mappedBy = "sport")
-    private Set<Liga> lige;
-
 }

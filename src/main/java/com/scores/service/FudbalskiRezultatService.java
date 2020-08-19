@@ -2,8 +2,10 @@ package com.scores.service;
 
 import com.scores.model.FudbalskiRezultat;
 
+import java.util.Date;
 import java.util.List;
 
 public interface FudbalskiRezultatService {
-    List<FudbalskiRezultat> getAll();
+    List<FudbalskiRezultat> getAllForToday();
+    List<FudbalskiRezultat> getAllForTheDate(Date date);
 }

@@ -13,4 +13,8 @@ public class FudbalskiRezultatDTO {
     private LocalDateTime vremeOdrzavanjaUtakmice;
     private FudbalskiKlubDTO domacin;
     private FudbalskiKlubDTO gost;
+    private LigaDTO liga;
+    private SezonaDTO sezona;
+    private Short goloviDomacin;
+    private Short goloviGost;
 }
