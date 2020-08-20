@@ -4,11 +4,12 @@ public enum PozicijaFudbal {
     GOLMAN,
     LEVI_BEK,
     DESNI_BEK,
-    ŠTOPER,
+    LEVI_ŠTOPER,
+    DESNI_ŠTOPER,
     ZADNJI_VEZNI,
-    CENTRALNI_VEZNI,
-    OFANZIVNI_VEZNI,
-    KRILO,
-    POLUŠPIC,
+    LEVI_VEZNI,
+    DESNI_VEZNI,
+    LEVO_KRILO,
+    DESNO_KRILO,
     CENTARFOR
 }
