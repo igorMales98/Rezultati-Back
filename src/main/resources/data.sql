@@ -493,10 +493,21 @@ INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('3', 'Manchester United', '3', '26', '42');
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('4', 'Chelsea', '4', '26', '42');
 
-INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('1', '1994-05-12', 'Mohammed', 'Salah', 'KRILO', '24', '1');
-INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('2', '1992-08-18', 'Sergio', 'Aguero', 'CENTARFOR', '5', '2');
-INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('3', '1992-06-05', 'Paul', 'pogba', 'OFANZIVNI_VEZNI', '32', '3');
-INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('4', '1992-06-05', 'Mason', 'Mount', 'CENTRALNI_VEZNI', '26', '4');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('1', '1994-05-12', 'Alisson', 'Beker', 'GOLMAN', '16', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('2', '1994-05-12', 'Virgil', 'Van Dijk', 'LEVI_ŠTOPER', '82', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('3', '1994-05-12', 'Joel', 'Matip', 'DESNI_ŠTOPER', '85', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('4', '1994-05-12', 'Andrew', 'Robertson', 'LEVI_BEK', '107', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('5', '1994-05-12', 'Trent', 'Alexandar-Arnold', 'DESNI_BEK', '26', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('6', '1994-05-12', 'James', 'Milner', 'ZADNJI_VEZNI', '26', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('7', '1994-05-12', 'Jordan', 'Henderson', 'LEVI_VEZNI', '26', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('8', '1994-05-12', 'Fabinho', 'Fabihno', 'DESNI_VEZNI', '16', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('9', '1994-05-12', 'Mohammed', 'Salah', 'LEVO_KRILO', '24', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('10', '1994-05-12', 'Sadio', 'Mane', 'DESNO_KRILO', '98', '1');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('11', '1994-05-12', 'Roberto', 'Firmino', 'CENTARFOR', '16', '1');
+
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('12', '1992-08-18', 'Sergio', 'Aguero', 'CENTARFOR', '5', '2');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('13', '1992-06-05', 'Paul', 'pogba', 'DESNI_VEZNI', '32', '3');
+INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('14', '1992-06-05', 'Mason', 'Mount', 'LEVI_VEZNI', '26', '4');
 
 
 
