@@ -487,12 +487,8 @@ INSERT INTO `scores`.`sezona` (`id`, `godina`) VALUES ('30', '2019');
 INSERT INTO `scores`.`sezona` (`id`, `godina`) VALUES ('31', '2020');
 INSERT INTO `scores`.`sezona` (`id`, `godina`) VALUES ('32', '2021');
 
-/*FK*/
+/*FK i Fudbaleri*/
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('1', 'Liverpool', '1', '26', '42');
-INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('2', 'Manchester City', '2', '26', '42');
-INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('3', 'Manchester United', '3', '26', '42');
-INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('4', 'Chelsea', '4', '26', '42');
-
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('1', '1994-05-12', 'Alisson', 'Beker', 'GOLMAN', '16', '1');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('2', '1994-05-12', 'Virgil', 'Van Dijk', 'LEVI_ŠTOPER', '82', '1');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('3', '1994-05-12', 'Joel', 'Matip', 'DESNI_ŠTOPER', '85', '1');
@@ -505,21 +501,82 @@ INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozi
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('10', '1994-05-12', 'Sadio', 'Mane', 'DESNO_KRILO', '98', '1');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('11', '1994-05-12', 'Roberto', 'Firmino', 'CENTARFOR', '16', '1');
 
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('2', 'Manchester City', '2', '26', '42');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('12', '1992-08-18', 'Sergio', 'Aguero', 'CENTARFOR', '5', '2');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('3', 'Manchester United', '3', '26', '42');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('13', '1992-06-05', 'Paul', 'pogba', 'DESNI_VEZNI', '32', '3');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('4', 'Chelsea', '4', '26', '42');
 INSERT INTO `scores`.`fudbaler` (`id`, `datum_rodjenja`, `ime`, `prezime`, `pozicija`, `zemlja_rodjenja_id`, `fudbalski_klub_id`) VALUES ('14', '1992-06-05', 'Mason', 'Mount', 'LEVI_VEZNI', '26', '4');
 
 
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('5', 'Barcelona', '4', '108', '163');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('6', 'Real Madrid', '3', '108', '163');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('7', 'Atletico Madrid', '2', '108', '163');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('8', 'Bayern', '1', '85', '126');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('9', 'Chelsea', '4', '85', '126');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('10', 'PSG', '3', '32', '188');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('11', 'Lyon', '2', '32', '188');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('12', 'Monaco', '1', '32', '188');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('13', 'Juventus', '4', '47', '73');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('14', 'Inter Milan', '3', '47', '73');
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('15', 'Partizan', '2', '105', '158');
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`, `liga_id`) VALUES ('16', 'Crvena Zvezda', '1', '105', '158');
 
 
 
 /*FUDBALSKI_REZULTAT*/
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('1', '2', '1', '2020-08-19 15:00:00.000000', '1', '2', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('1', '2', '1', '2020-08-18 15:30:00.000000', '1', '2', '42', '30');
 INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('2', '1', '3', '2020-08-18 22:00:00.000000', '3', '1', '42', '30');
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('3', '3', '3', '2020-08-18 22:00:00.000000', '2', '3', '42', '30');
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('4', '0', '1', '2020-08-19 05:00:00.000000', '3', '4', '42', '30');
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('5', '1', '1', '2020-08-18 22:00:00.000000', '4', '2', '42', '30');
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('6', '2', '1', '2020-08-18 22:00:00.000000', '4', '1', '42', '30');
-INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('7', '0', '1', '2020-08-19 22:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('3', '3', '3', '2020-08-18 07:00:00.000000', '2', '3', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('4', '0', '1', '2020-08-18 05:00:00.000000', '3', '4', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('5', '1', '1', '2020-08-18 22:00:00.000000', '5', '6', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('6', '2', '1', '2020-08-18 20:15:00.000000', '6', '7', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('7', '0', '1', '2020-08-18 15:00:00.000000', '13', '14', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('8', '2', '1', '2020-08-18 19:00:00.000000', '5', '6', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('9', '1', '1', '2020-08-18 17:00:00.000000', '8', '9', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('10', '2', '2', '2020-08-18 06:45:00.000000', '9', '8', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('11', '3', '1', '2020-08-18 18:00:00.000000', '9', '8', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('12', '3', '2', '2020-08-18 23:30:00.000000', '10', '11', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('13', '2', '1', '2020-08-18 14:00:00.000000', '11', '12', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('14', '0', '0', '2020-08-19 09:00:00.000000', '14', '13', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('15', '0', '0', '2020-08-19 21:25:00.000000', '15', '16', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('16', '2', '1', '2020-08-19 21:00:00.000000', '16', '15', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('17', '3', '4', '2020-08-19 21:00:00.000000', '13', '14', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('18', '5', '1', '2020-08-19 20:15:00.000000', '8', '9', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('19', '7', '1', '2020-08-19 18:00:00.000000', '9', '8', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('20', '0', '5', '2020-08-19 15:00:00.000000', '9', '8', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('21', '0', '3', '2020-08-19 16:30:00.000000', '14', '13', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('22', '1', '3', '2020-08-19 07:00:00.000000', '7', '6', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('23', '2', '1', '2020-08-19 06:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('24', '0', '2', '2020-08-19 10:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('25', '1', '1', '2020-08-19 11:15:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('26', '3', '3', '2020-08-19 12:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('27', '2', '2', '2020-08-19 23:00:00.000000', '6', '5', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('28', '1', '2', '2020-08-19 19:30:00.000000', '5', '7', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('29', '2', '1', '2020-08-19 13:00:00.000000', '7', '5', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('30', '2', '2', '2020-08-19 18:00:00.000000', '10', '11', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('31', '3', '1', '2020-08-19 17:45:00.000000', '14', '13', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('32', '0', '3', '2020-08-19 14:00:00.000000', '12', '10', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('34', '0', '4', '2020-08-20 21:00:00.000000', '11', '12', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('35', '2', '1', '2020-08-20 10:30:00.000000', '10', '12', '188', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('36', '2', '1', '2020-08-20 14:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('37', '0', '0', '2020-08-20 17:00:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('38', '0', '0', '2020-08-20 22:00:00.000000', '14', '13', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('39', '0', '1', '2020-08-20 21:00:00.000000', '5', '6', '163', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('40', '2', '1', '2020-08-20 20:45:00.000000', '8', '9', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('41', '2', '2', '2020-08-20 02:00:00.000000', '9', '8', '126', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('42', '2', '3', '2020-08-20 03:00:00.000000', '15', '16', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('43', '1', '1', '2020-08-20 15:00:00.000000', '16', '15', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('44', '2', '1', '2020-08-21 05:15:00.000000', '15', '16', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('45', '5', '1', '2020-08-21 07:00:00.000000', '13', '14', '73', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('46', '2', '1', '2020-08-21 10:00:00.000000', '16', '15', '158', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('47', '0', '3', '2020-08-21 10:15:00.000000', '3', '1', '42', '30');
+INSERT INTO `scores`.`fudbalski_rezultat` (`id`, `golovi_domacin`, `golovi_gost`, `vreme_odrzavanja_utakmice`, `domacin_id`, `gost_id`, `liga_id`, `sezona_id`) VALUES ('48', '3', '1', '2020-08-21 10:00:00.000000', '3', '1', '42', '30');
 
 
