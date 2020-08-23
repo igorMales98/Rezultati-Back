@@ -9,6 +9,6 @@ import java.util.Set;
 @Setter
 public class FudbalskiKlubDTO extends KlubDTO {
 
-    private LigaDTO liga;
+    private Set<LigaDTO> lige;
     private Set<FudbalerDTO> fudbaleri;
 }
