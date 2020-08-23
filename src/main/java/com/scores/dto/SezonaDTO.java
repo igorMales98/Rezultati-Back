@@ -8,5 +8,5 @@ import lombok.Setter;
 public class SezonaDTO {
 
     private Long id;
-    private Short godina;
+    private String godina;
 }
