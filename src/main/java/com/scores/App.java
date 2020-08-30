@@ -78,6 +78,62 @@ public class App {
         String laliga2018 = file6.getAbsolutePath();
         id = readFromCSVFile(laliga2018, id, 163L, 9L);
 
+        System.out.println("Poceo je unos podataka o utakmicama bundeslige sezona 2020.");
+        URL url7 = App.class.getResource("/data/season_1920_csv_germany.csv");
+        File file7 = Paths.get(url7.toURI()).toFile();
+        String bundes2020 = file7.getAbsolutePath();
+        id = readFromCSVFile(bundes2020, id, 126L, 11L);
+
+        System.out.println("Poceo je unos podataka o utakmicama bundeslige sezona 2019.");
+        URL url8 = App.class.getResource("/data/season_1819_csv_germany.csv");
+        File file8 = Paths.get(url8.toURI()).toFile();
+        String bundes2019 = file8.getAbsolutePath();
+        id = readFromCSVFile(bundes2019, id, 126L, 10L);
+
+        System.out.println("Poceo je unos podataka o utakmicama bundeslige sezona 2018.");
+        URL url9 = App.class.getResource("/data/season_1718_csv_germany.csv");
+        File file9 = Paths.get(url9.toURI()).toFile();
+        String bundes2018 = file9.getAbsolutePath();
+        id = readFromCSVFile(bundes2018, id, 126L, 9L);
+
+        System.out.println("Poceo je unos podataka o utakmicama ligue 1 sezona 2020.");
+        URL url10 = App.class.getResource("/data/season_1920_csv_france.csv");
+        File file10 = Paths.get(url10.toURI()).toFile();
+        String ligue2020 = file10.getAbsolutePath();
+        id = readFromCSVFile(ligue2020, id, 188L, 11L);
+
+        System.out.println("Poceo je unos podataka o utakmicama ligue 1 sezona 2019.");
+        URL url11 = App.class.getResource("/data/season_1819_csv_france.csv");
+        File file11 = Paths.get(url11.toURI()).toFile();
+        String ligue2019 = file11.getAbsolutePath();
+        id = readFromCSVFile(ligue2019, id, 188L, 10L);
+
+        System.out.println("Poceo je unos podataka o utakmicama ligue 1 sezona 2018.");
+        URL url12 = App.class.getResource("/data/season_1718_csv_france.csv");
+        File file12 = Paths.get(url12.toURI()).toFile();
+        String ligue2018 = file12.getAbsolutePath();
+        id = readFromCSVFile(ligue2018, id, 188L, 9L);
+
+        System.out.println("Poceo je unos podataka o utakmicama serie a sezona 2020.");
+        URL url13 = App.class.getResource("/data/season_1920_csv_italy.csv");
+        File file13 = Paths.get(url13.toURI()).toFile();
+        String seria2020 = file13.getAbsolutePath();
+        id = readFromCSVFile(seria2020, id, 73L, 11L);
+
+        System.out.println("Poceo je unos podataka o utakmicama serie a sezona 2019.");
+        URL url14 = App.class.getResource("/data/season_1819_csv_italy.csv");
+        File file14 = Paths.get(url14.toURI()).toFile();
+        String seria2019 = file14.getAbsolutePath();
+        id = readFromCSVFile(seria2019, id, 73L, 10L);
+
+        System.out.println("Poceo je unos podataka o utakmicama serie a sezona 2018.");
+        URL url15 = App.class.getResource("/data/season_1718_csv_italy.csv");
+        File file15 = Paths.get(url15.toURI()).toFile();
+        String seria2018 = file15.getAbsolutePath();
+        id = readFromCSVFile(seria2018, id, 73L, 9L);
+
+        System.out.println("KRAJ UNOSA_____________________________________________");
+
 
     }
 

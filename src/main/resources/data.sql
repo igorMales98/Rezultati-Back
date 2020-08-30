@@ -2363,6 +2363,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('58', 'Amiens', '58', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('58', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('58', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('58', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (628, '1983-12-31', 'Barnard', 'Maltby', 'GOLMAN', 'STARTER', 117, 58);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (629, '1982-01-29', 'Frazer', 'Le Provest', 'LEVI_BEK', 'STARTER', 116, 58);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (630, '1999-10-02', 'Holly', 'Vint', 'DESNI_BEK', 'STARTER', 82, 58);
@@ -2377,6 +2379,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('59', 'Angers', '59', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('59', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('59', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('59', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (639, '1986-10-12', 'Esme', 'Fippe', 'GOLMAN', 'STARTER', 115, 59);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (640, '1987-12-03', 'Hakim', 'Vanshin', 'LEVI_BEK', 'STARTER', 101, 59);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (641, '1991-10-26', 'Daven', 'Girdwood', 'DESNI_BEK', 'STARTER', 23, 59);
@@ -2391,6 +2395,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('60', 'Bordeaux', '60', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('60', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('60', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('60', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (650, '1993-03-29', 'Norton', 'Lumsden', 'GOLMAN', 'STARTER', 100, 60);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (651, '2001-03-11', 'Gayle', 'Mantz', 'LEVI_BEK', 'STARTER', 39, 60);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (652, '1999-08-15', 'Gibb', 'Delacourt', 'DESNI_BEK', 'STARTER', 37, 60);
@@ -2405,7 +2411,6 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('61', 'Brest', '61', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('61', '188', '11');
-
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (661, '1986-10-27', 'Jarrid', 'Sillars', 'GOLMAN', 'STARTER', 79, 61);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (662, '1987-04-17', 'Mitchael', 'Terrett', 'LEVI_BEK', 'STARTER', 21, 61);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (663, '1989-05-16', 'Mathias', 'Frichley', 'DESNI_BEK', 'STARTER', 7, 61);
@@ -2420,6 +2425,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('62', 'Dijon', '62', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('62', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('62', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('62', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (672, '1992-01-02', 'Torrence', 'Curgenuer', 'GOLMAN', 'STARTER', 123, 62);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (673, '1992-05-03', 'Ludwig', 'Gonthard', 'LEVI_BEK', 'STARTER', 5, 62);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (674, '1990-02-12', 'Quincey', 'Saldler', 'DESNI_BEK', 'STARTER', 80, 62);
@@ -2434,7 +2441,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('63', 'Lille', '63', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('63', '188', '11');
-
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('63', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('63', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (683, '1987-07-01', 'Zeb', 'Glanton', 'GOLMAN', 'STARTER', 90, 63);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (684, '1989-07-01', 'Shurlock', 'Reisin', 'LEVI_BEK', 'STARTER', 25, 63);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (685, '1989-01-17', 'Ario', 'Barwick', 'DESNI_BEK', 'STARTER', 25, 63);
@@ -2449,6 +2457,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('64', 'Lyon', '64', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('64', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('64', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('64', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (694, '1987-11-09', 'Karlan', 'Caverhill', 'GOLMAN', 'STARTER', 21, 64);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (695, '1998-07-13', 'Gardiner', 'Grinstead', 'LEVI_BEK', 'STARTER', 71, 64);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (696, '1986-09-23', 'Curran', 'Sorbie', 'DESNI_BEK', 'STARTER', 98, 64);
@@ -2463,6 +2473,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('65', 'Marseille', '65', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('65', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('65', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('65', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (705, '1993-08-09', 'Lloyd', 'Leckie', 'GOLMAN', 'STARTER', 99, 65);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (706, '1983-04-29', 'Adriano', 'Jacobsohn', 'LEVI_BEK', 'STARTER', 34, 65);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (707, '1987-09-23', 'Abbey', 'Comley', 'DESNI_BEK', 'STARTER', 36, 65);
@@ -2477,6 +2489,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('66', 'Metz', '66', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('66', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('66', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (716, '1988-02-10', 'Theo', 'Kordt', 'GOLMAN', 'STARTER', 113, 66);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (717, '1989-11-01', 'George', 'Reinert', 'LEVI_BEK', 'STARTER', 44, 66);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (718, '1993-11-30', 'Ryon', 'Baudrey', 'DESNI_BEK', 'STARTER', 82, 66);
@@ -2491,6 +2504,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('67', 'Monaco', '67', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('67', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('67', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('67', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (727, '2000-03-16', 'Abdul', 'Tansill', 'GOLMAN', 'STARTER', 31, 67);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (728, '1996-02-14', 'Joshia', 'Hassin', 'LEVI_BEK', 'STARTER', 63, 67);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (729, '1980-11-02', 'Benyamin', 'Blatherwick', 'DESNI_BEK', 'STARTER', 71, 67);
@@ -2505,6 +2520,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('68', 'Montpellier', '68', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('68', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('68', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('68', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (738, '1991-07-06', 'Felix', 'Duligall', 'GOLMAN', 'STARTER', 114, 68);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (739, '1992-08-08', 'Zebadiah', 'Gunderson', 'LEVI_BEK', 'STARTER', 83, 68);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (740, '1992-03-11', 'Patrizio', 'Humble', 'DESNI_BEK', 'STARTER', 120, 68);
@@ -2519,6 +2536,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('69', 'Nantes', '69', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('69', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('69', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('69', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (749, '1985-12-30', 'Heinrick', 'Vasey', 'GOLMAN', 'STARTER', 21, 69);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (750, '1998-01-04', 'Ludvig', 'Chesser', 'LEVI_BEK', 'STARTER', 22, 69);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (751, '2001-04-17', 'Kimbell', 'Clarkin', 'DESNI_BEK', 'STARTER', 98, 69);
@@ -2533,6 +2552,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('70', 'Nice', '70', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('70', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('70', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('70', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (760, '1983-06-30', 'Giulio', 'Hovington', 'GOLMAN', 'STARTER', 120, 70);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (761, '1980-02-18', 'Felicio', 'Versey', 'LEVI_BEK', 'STARTER', 113, 70);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (762, '1999-09-25', 'Giacopo', 'Leinthall', 'DESNI_BEK', 'STARTER', 84, 70);
@@ -2547,6 +2568,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('71', 'Nîmes', '71', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('71', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('71', '188', '10');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (771, '1987-03-01', 'Adam', 'Pryn', 'GOLMAN', 'STARTER', 107, 71);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (772, '1988-03-06', 'Ulrich', 'Tilsley', 'LEVI_BEK', 'STARTER', 82, 71);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (773, '2000-05-02', 'Donnie', 'Cram', 'DESNI_BEK', 'STARTER', 63, 71);
@@ -2561,6 +2583,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('72', 'PSG', '72', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('72', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('72', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('72', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (782, '1980-01-11', 'Perkin', 'Indgs', 'GOLMAN', 'STARTER', 56, 72);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (783, '1993-08-23', 'Burton', 'Briatt', 'LEVI_BEK', 'STARTER', 98, 72);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (784, '1991-07-04', 'Dana', 'Maude', 'DESNI_BEK', 'STARTER', 94, 72);
@@ -2575,7 +2599,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('73', 'Reims', '73', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('73', '188', '11');
-
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('73', '188', '10');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (793, '1999-12-16', 'Gayelord', 'Munnion', 'GOLMAN', 'STARTER', 68, 73);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (794, '1999-03-25', 'Olivero', 'Green', 'LEVI_BEK', 'STARTER', 70, 73);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (795, '1993-08-18', 'Dag', 'Abbitt', 'DESNI_BEK', 'STARTER', 82, 73);
@@ -2590,6 +2614,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('74', 'Rennes', '74', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('74', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('74', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('74', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (804, '1983-03-05', 'Ephrem', 'Boodell', 'GOLMAN', 'STARTER', 5, 74);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (805, '1982-10-21', 'Obed', 'Tierney', 'LEVI_BEK', 'STARTER', 116, 74);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (806, '1995-03-23', 'Maurits', 'Purchon', 'DESNI_BEK', 'STARTER', 79, 74);
@@ -2604,6 +2630,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('75', 'Saint-Étienne', '75', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('75', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('75', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('75', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (815, '1996-05-09', 'Dilly', 'Harcourt', 'GOLMAN', 'STARTER', 91, 75);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (816, '1984-10-29', 'Jamill', 'Messruther', 'LEVI_BEK', 'STARTER', 63, 75);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (817, '1988-10-18', 'Willdon', 'Chiplen', 'DESNI_BEK', 'STARTER', 108, 75);
@@ -2618,6 +2646,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('76', 'Strasbourg', '76', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('76', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('76', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('76', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (826, '1987-08-18', 'Carlin', 'Barton', 'GOLMAN', 'STARTER', 81, 76);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (827, '1985-01-08', 'Giffard', 'Zanitti', 'LEVI_BEK', 'STARTER', 42, 76);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (828, '1984-09-05', 'Edik', 'Borham', 'DESNI_BEK', 'STARTER', 84, 76);
@@ -2632,6 +2662,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('77', 'Toulouse', '77', '32');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('77', '188', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('77', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('77', '188', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (837, '1982-12-22', 'Bruno', 'Fortye', 'GOLMAN', 'STARTER', 31, 77);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (838, '1997-09-01', 'Gradey', 'Gwyn', 'LEVI_BEK', 'STARTER', 10, 77);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (839, '1998-08-06', 'Guillermo', 'Crosgrove', 'DESNI_BEK', 'STARTER', 45, 77);
@@ -2647,6 +2679,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('78', 'Atalanta', '78', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('78', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('78', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('78', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (848, '1993-10-29', 'Rafael', 'Salkeld', 'GOLMAN', 'STARTER', 22, 78);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (849, '1981-07-10', 'Trevor', 'Stote', 'LEVI_BEK', 'STARTER', 45, 78);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (850, '1999-07-24', 'Birch', 'Danielczyk', 'DESNI_BEK', 'STARTER', 11, 78);
@@ -2661,6 +2695,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('79', 'Benevento', '79', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('79', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('79', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (859, '1980-02-29', 'Leroi', 'Gummer', 'GOLMAN', 'STARTER', 40, 79);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (860, '1998-05-12', 'Ignacio', 'Stern', 'LEVI_BEK', 'STARTER', 123, 79);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (861, '1983-08-31', 'Aguste', 'Mitchinson', 'DESNI_BEK', 'STARTER', 50, 79);
@@ -2675,6 +2710,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('80', 'Bologna', '80', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('80', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('80', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('80', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (870, '1986-08-12', 'Alaric', 'Elcum', 'GOLMAN', 'STARTER', 24, 80);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (871, '1981-06-11', 'Bat', 'Greyes', 'LEVI_BEK', 'STARTER', 36, 80);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (872, '1986-05-26', 'Tuckie', 'McKinnon', 'DESNI_BEK', 'STARTER', 76, 80);
@@ -2689,6 +2726,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('81', 'Cagliari', '81', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('81', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('81', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('81', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (881, '1999-10-30', 'Harcourt', 'Sessuns', 'GOLMAN', 'STARTER', 49, 81);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (882, '1998-01-21', 'Norby', 'Lenney', 'LEVI_BEK', 'STARTER', 89, 81);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (883, '1990-05-28', 'Kirk', 'Hughes', 'DESNI_BEK', 'STARTER', 19, 81);
@@ -2703,6 +2742,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('82', 'Crotone', '82', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('82', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('82', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (892, '1992-01-11', 'Jeffy', 'Fugere', 'GOLMAN', 'STARTER', 39, 82);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (893, '1998-04-28', 'Cobby', 'Jerrard', 'LEVI_BEK', 'STARTER', 92, 82);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (894, '1982-03-07', 'Guillermo', 'Presnall', 'DESNI_BEK', 'STARTER', 70, 82);
@@ -2717,6 +2757,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('83', 'Fiorentina', '83', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('83', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('83', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('83', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (903, '1996-09-10', 'Gaven', 'Anelay', 'GOLMAN', 'STARTER', 67, 83);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (904, '1990-06-07', 'Enoch', 'Uccelli', 'LEVI_BEK', 'STARTER', 70, 83);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (905, '1990-11-22', 'Lorry', 'McKea', 'DESNI_BEK', 'STARTER', 46, 83);
@@ -2731,6 +2773,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('84', 'Genoa', '84', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('84', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('84', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('84', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (914, '1989-12-02', 'Prent', 'Masdon', 'GOLMAN', 'STARTER', 73, 84);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (915, '1995-09-13', 'Allister', 'Shimman', 'LEVI_BEK', 'STARTER', 113, 84);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (916, '1993-08-22', 'Weber', 'Leavesley', 'DESNI_BEK', 'STARTER', 22, 84);
@@ -2759,6 +2803,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('86', 'Internazionale', '86', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('86', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('86', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('86', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (936, '1987-02-11', 'Kerry', 'Poter', 'GOLMAN', 'STARTER', 94, 86);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (937, '1981-03-31', 'Mario', 'Trase', 'LEVI_BEK', 'STARTER', 37, 86);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (938, '1997-09-24', 'Harry', 'Markson', 'DESNI_BEK', 'STARTER', 92, 86);
@@ -2773,6 +2819,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('87', 'Juventus', '87', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('87', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('87', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('87', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (947, '1982-09-10', 'Gorden', 'Mulliss', 'GOLMAN', 'STARTER', 18, 87);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (948, '1985-08-25', 'Sayres', 'Soeiro', 'LEVI_BEK', 'STARTER', 109, 87);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (949, '1990-07-27', 'Christopher', 'Salway', 'DESNI_BEK', 'STARTER', 1, 87);
@@ -2787,6 +2835,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('88', 'Lazio', '88', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('88', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('88', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('88', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (958, '1986-07-12', 'Emmett', 'Aven', 'GOLMAN', 'STARTER', 86, 88);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (959, '1992-12-31', 'Maxy', 'Phibb', 'LEVI_BEK', 'STARTER', 93, 88);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (960, '1995-05-03', 'Alair', 'Gabbatiss', 'DESNI_BEK', 'STARTER', 18, 88);
@@ -2801,6 +2851,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('89', 'Milan', '89', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('89', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('89', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('89', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (969, '1999-08-12', 'Brnaby', 'McLoney', 'GOLMAN', 'STARTER', 12, 89);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (970, '1983-09-22', 'Newton', 'Jaffa', 'LEVI_BEK', 'STARTER', 107, 89);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (971, '1998-06-07', 'Kalil', 'Songist', 'DESNI_BEK', 'STARTER', 88, 89);
@@ -2815,6 +2867,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('90', 'Napoli', '90', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('90', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('90', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('90', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (980, '1995-05-11', 'Bartolomeo', 'Pyrke', 'GOLMAN', 'STARTER', 2, 90);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (981, '2001-05-05', 'Tudor', 'Maruska', 'LEVI_BEK', 'STARTER', 16, 90);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (982, '1990-11-09', 'Abdul', 'Gorst', 'DESNI_BEK', 'STARTER', 76, 90);
@@ -2829,6 +2883,7 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('91', 'Parma', '91', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('91', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('91', '73', '10');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (991, '1995-10-07', 'Rossie', 'Faro', 'GOLMAN', 'STARTER', 53, 91);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (992, '1995-06-05', 'Nehemiah', 'Bricknall', 'LEVI_BEK', 'STARTER', 2, 91);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (993, '1992-12-26', 'Rolando', 'Eglise', 'DESNI_BEK', 'STARTER', 84, 91);
@@ -2843,6 +2898,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('92', 'Roma', '92', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('92', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('92', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('92', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1002, '1994-08-15', 'Garwood', 'Ambrosio', 'GOLMAN', 'STARTER', 98, 92);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1003, '1990-07-17', 'Innis', 'Slad', 'LEVI_BEK', 'STARTER', 58, 92);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1004, '1984-11-26', 'Newton', 'Cottom', 'DESNI_BEK', 'STARTER', 118, 92);
@@ -2857,6 +2914,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('93', 'Sampdoria', '93', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('93', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('93', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('93', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1013, '1993-10-02', 'Isac', 'Malafe', 'GOLMAN', 'STARTER', 27, 93);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1014, '1996-11-06', 'Conant', 'Shufflebotham', 'LEVI_BEK', 'STARTER', 46, 93);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1015, '1986-02-03', 'Jarrett', 'Hamnett', 'DESNI_BEK', 'STARTER', 67, 93);
@@ -2871,6 +2930,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('94', 'Sassuolo', '94', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('94', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('94', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('94', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1024, '1987-04-11', 'Hort', 'Kinver', 'GOLMAN', 'STARTER', 3, 94);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1025, '1981-11-06', 'Mose', 'O''Kinedy', 'LEVI_BEK', 'STARTER', 72, 94);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1026, '1995-06-05', 'Alon', 'Edmonstone', 'DESNI_BEK', 'STARTER', 57, 94);
@@ -2899,6 +2960,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('96', 'Torino', '96', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('96', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('96', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('96', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1046, '1989-10-29', 'Hilliard', 'Mac', 'GOLMAN', 'STARTER', 117, 96);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1047, '1990-08-26', 'Frants', 'Pool', 'LEVI_BEK', 'STARTER', 60, 96);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1048, '1992-05-14', 'Flin', 'Haseldine', 'DESNI_BEK', 'STARTER', 21, 96);
@@ -2913,6 +2976,8 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('97', 'Udinese', '97', '47');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('97', '73', '11');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('97', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('97', '73', '9');
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1057, '1989-11-09', 'Beltran', 'Ranscomb', 'GOLMAN', 'STARTER', 96, 97);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1058, '1999-11-19', 'Parnell', 'Castiglione', 'LEVI_BEK', 'STARTER', 104, 97);
 insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1059, '1986-09-16', 'Currie', 'Baiyle', 'DESNI_BEK', 'STARTER', 48, 97);
@@ -2927,57 +2992,359 @@ insert into `scores`.`fudbaler`  (id, datum_rodjenja, ime, prezime, pozicija, st
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('98', 'Cardiff', '98', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('98', '42', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1068, '1985-12-31', 'Garwin', 'Alfonzo', 'ZADNJI_VEZNI', 'STARTER', 1, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1069, '1998-10-29', 'Alphonse', 'Idiens', 'LEVI_VEZNI', 'STARTER', 12, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1070, '1997-08-25', 'Olav', 'Hatherleigh', 'GOLMAN', 'STARTER', 123, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1071, '1997-10-07', 'Gibb', 'Rubinivitz', 'DESNI_VEZNI', 'STARTER', 29, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1072, '1988-08-18', 'Bertram', 'Dinkin', 'DESNI_VEZNI', 'STARTER', 26, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1073, '1991-12-22', 'Elwin', 'Deacock', 'GOLMAN', 'STARTER', 107, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1074, '1999-08-31', 'Edsel', 'Akid', 'DESNI_VEZNI', 'STARTER', 92, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1075, '2000-10-24', 'Reynold', 'Covington', 'DESNI_ŠTOPER', 'STARTER', 52, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1076, '1994-04-30', 'Costa', 'Torricella', 'LEVI_BEK', 'STARTER', 60, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1077, '1989-08-17', 'Reginald', 'Ableson', 'LEVO_KRILO', 'STARTER', 82, 98);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1078, '1998-02-10', 'Lezley', 'Corneliussen', 'DESNI_BEK', 'STARTER', 31, 98);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('99', 'Fulham', '99', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('99', '42', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1079, '1999-07-20', 'Wallie', 'Benka', 'LEVI_BEK', 'STARTER', 51, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1080, '1996-02-07', 'Field', 'Hadleigh', 'CENTARFOR', 'STARTER', 82, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1081, '1995-05-27', 'Filbert', 'Lanktree', 'LEVO_KRILO', 'STARTER', 38, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1082, '1990-08-03', 'Ricki', 'Coumbe', 'DESNO_KRILO', 'STARTER', 28, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1083, '1997-08-07', 'Loren', 'Muggeridge', 'CENTARFOR', 'STARTER', 85, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1084, '1996-07-20', 'Allyn', 'Bacher', 'LEVI_VEZNI', 'STARTER', 14, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1085, '1981-06-27', 'Enrique', 'Pillington', 'LEVI_VEZNI', 'STARTER', 45, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1086, '1997-01-08', 'Luis', 'Labram', 'LEVI_VEZNI', 'STARTER', 12, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1087, '1983-03-07', 'Jarrett', 'O''Brogan', 'LEVI_VEZNI', 'STARTER', 98, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1088, '1996-02-21', 'Rolando', 'Holsey', 'DESNI_VEZNI', 'STARTER', 47, 99);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1089, '1998-09-26', 'Eberhard', 'Siderfin', 'LEVI_ŠTOPER', 'STARTER', 119, 99);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('100', 'Huddersfield', '100', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('100', '42', '10');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('100', '42', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1090, '1988-07-23', 'Ambros', 'Crees', 'DESNO_KRILO', 'STARTER', 21, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1091, '2001-08-26', 'Joseph', 'Hammelberg', 'ZADNJI_VEZNI', 'STARTER', 9, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1092, '1999-04-23', 'Beau', 'Tilson', 'GOLMAN', 'STARTER', 120, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1093, '1996-11-26', 'Michale', 'Kirman', 'ZADNJI_VEZNI', 'STARTER', 52, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1094, '1986-04-23', 'Jervis', 'Essery', 'DESNI_ŠTOPER', 'STARTER', 10, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1095, '2001-03-09', 'Robby', 'Malimoe', 'LEVI_ŠTOPER', 'STARTER', 58, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1096, '1981-04-01', 'Derk', 'MacKee', 'LEVO_KRILO', 'STARTER', 59, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1097, '1987-12-16', 'Ikey', 'Godfery', 'LEVI_ŠTOPER', 'STARTER', 66, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1098, '1986-02-25', 'Joshia', 'Mateu', 'DESNI_ŠTOPER', 'STARTER', 77, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1099, '1995-06-15', 'Alec', 'Iaduccelli', 'ZADNJI_VEZNI', 'STARTER', 86, 100);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1100, '1992-12-10', 'Park', 'Trippack', 'DESNI_BEK', 'STARTER', 62, 100);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('101', 'Stoke', '101', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('101', '42', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1101, '1998-08-23', 'Douglas', 'Jaime', 'DESNO_KRILO', 'STARTER', 98, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1102, '2000-12-06', 'Duncan', 'Normington', 'LEVI_BEK', 'STARTER', 26, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1103, '1986-12-07', 'Barri', 'Lusk', 'DESNI_BEK', 'STARTER', 24, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1104, '1989-12-02', 'Emery', 'Paulton', 'DESNI_ŠTOPER', 'STARTER', 28, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1105, '1999-12-11', 'Cece', 'Bage', 'LEVO_KRILO', 'STARTER', 78, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1106, '1987-03-15', 'Boy', 'Buxcy', 'LEVO_KRILO', 'STARTER', 55, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1107, '1992-11-24', 'Sanson', 'Cropton', 'LEVI_ŠTOPER', 'STARTER', 35, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1108, '1998-08-26', 'Luis', 'MacGray', 'DESNO_KRILO', 'STARTER', 89, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1109, '1985-10-05', 'Geoff', 'Chestnutt', 'CENTARFOR', 'STARTER', 16, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1110, '1985-11-25', 'Adlai', 'Candwell', 'CENTARFOR', 'STARTER', 34, 101);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1111, '1988-01-15', 'Hort', 'Pead', 'GOLMAN', 'STARTER', 5, 101);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('102', 'Swansea', '102', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('102', '42', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1112, '1991-01-09', 'Silas', 'Sutty', 'LEVO_KRILO', 'STARTER', 70, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1113, '1992-09-17', 'Guglielmo', 'Noice', 'CENTARFOR', 'STARTER', 50, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1114, '1995-05-29', 'Sax', 'Quimby', 'GOLMAN', 'STARTER', 113, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1115, '1992-01-07', 'Clare', 'Laise', 'ZADNJI_VEZNI', 'STARTER', 51, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1116, '1984-06-22', 'Abrahan', 'Harses', 'DESNI_ŠTOPER', 'STARTER', 57, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1117, '1982-12-16', 'Isidoro', 'Sayton', 'GOLMAN', 'STARTER', 66, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1118, '1982-08-14', 'Vincents', 'Mityushkin', 'LEVI_BEK', 'STARTER', 55, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1119, '1980-03-05', 'Nickolai', 'Vanderson', 'DESNI_BEK', 'STARTER', 3, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1120, '1992-12-31', 'Eb', 'Bortolozzi', 'DESNI_BEK', 'STARTER', 108, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1121, '1987-03-26', 'Dunstan', 'Eronie', 'LEVI_VEZNI', 'STARTER', 120, 102);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1122, '1990-03-21', 'Neddie', 'Lympenie', 'LEVO_KRILO', 'STARTER', 88, 102);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('103', 'WBA', '103', '26');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('103', '42', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1123, '1993-04-15', 'Alexandro', 'Kits', 'ZADNJI_VEZNI', 'STARTER', 33, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1124, '1994-07-20', 'Mikael', 'Akrigg', 'GOLMAN', 'STARTER', 97, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1125, '1995-01-24', 'Kingston', 'Brydie', 'GOLMAN', 'STARTER', 71, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1126, '1982-06-04', 'Albie', 'Berthome', 'GOLMAN', 'STARTER', 101, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1127, '1997-05-13', 'Falkner', 'Jeppensen', 'DESNI_ŠTOPER', 'STARTER', 53, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1128, '1996-03-13', 'Cordell', 'Villalta', 'DESNI_BEK', 'STARTER', 123, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1129, '1987-03-14', 'Darrin', 'Lecointe', 'ZADNJI_VEZNI', 'STARTER', 12, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1130, '1996-12-07', 'Morgun', 'Hardwick', 'LEVI_VEZNI', 'STARTER', 16, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1131, '1981-02-21', 'Cristian', 'Jennens', 'LEVI_BEK', 'STARTER', 98, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1132, '1984-11-05', 'Albrecht', 'Shardlow', 'GOLMAN', 'STARTER', 55, 103);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1133, '2000-10-15', 'Lek', 'Bohan', 'DESNO_KRILO', 'STARTER', 28, 103);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('104', 'Girona', '104', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('104', '163', '10');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('104', '163', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1134, '2001-06-28', 'Shea', 'Yurshev', 'LEVI_ŠTOPER', 'STARTER', 29, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1135, '1999-05-05', 'Rhett', 'Tallet', 'LEVI_ŠTOPER', 'STARTER', 15, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1136, '1998-08-17', 'Xenos', 'Swetmore', 'CENTARFOR', 'STARTER', 111, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1137, '1988-08-12', 'Shepard', 'Feather', 'DESNI_ŠTOPER', 'STARTER', 9, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1138, '1992-04-19', 'Griswold', 'Leynton', 'LEVO_KRILO', 'STARTER', 98, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1139, '1988-10-17', 'Tailor', 'Gilleson', 'LEVO_KRILO', 'STARTER', 99, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1140, '2001-06-19', 'Forrester', 'Knevett', 'DESNI_VEZNI', 'STARTER', 47, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1141, '1991-01-23', 'Hazel', 'Sharvell', 'GOLMAN', 'STARTER', 29, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1142, '2000-12-19', 'Nehemiah', 'Fricke', 'DESNI_BEK', 'STARTER', 18, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1143, '1995-10-26', 'Nathanael', 'Brockwell', 'DESNI_BEK', 'STARTER', 94, 104);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1144, '1988-05-13', 'Aldin', 'Lishman', 'LEVI_VEZNI', 'STARTER', 104, 104);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('105', 'Huesca', '105', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('105', '163', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1145, '1984-05-12', 'Yanaton', 'Huckin', 'GOLMAN', 'STARTER', 46, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1146, '1984-07-14', 'Emory', 'Soares', 'LEVI_VEZNI', 'STARTER', 62, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1147, '2001-05-02', 'Cornelius', 'Abbot', 'DESNI_ŠTOPER', 'STARTER', 101, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1148, '1986-05-29', 'Kennith', 'Kaman', 'LEVI_VEZNI', 'STARTER', 44, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1149, '2000-11-14', 'Carleton', 'Pearsey', 'DESNI_VEZNI', 'STARTER', 86, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1150, '1981-06-06', 'Cecilius', 'Tyne', 'DESNO_KRILO', 'STARTER', 34, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1151, '1999-06-24', 'Prince', 'Sandbrook', 'DESNI_ŠTOPER', 'STARTER', 121, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1152, '1993-07-05', 'Dun', 'Pridding', 'CENTARFOR', 'STARTER', 113, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1153, '1994-09-11', 'Derek', 'Lansley', 'ZADNJI_VEZNI', 'STARTER', 59, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1154, '1980-06-03', 'Colan', 'Mongan', 'DESNI_BEK', 'STARTER', 37, 105);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1155, '2001-01-02', 'Remus', 'Sowood', 'LEVI_BEK', 'STARTER', 120, 105);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('106', 'Vallecano', '106', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('106', '163', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1156, '1987-05-27', 'Erhart', 'Dupoy', 'CENTARFOR', 'STARTER', 16, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1157, '1981-03-02', 'Garald', 'Keat', 'DESNI_BEK', 'STARTER', 44, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1158, '1998-11-28', 'Georg', 'McCandie', 'GOLMAN', 'STARTER', 9, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1159, '1998-01-12', 'Alexandr', 'Wayper', 'LEVI_VEZNI', 'STARTER', 107, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1160, '1984-11-09', 'Alexei', 'Kirkby', 'ZADNJI_VEZNI', 'STARTER', 123, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1161, '1998-04-21', 'Jessie', 'Dikle', 'DESNI_BEK', 'STARTER', 42, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1162, '1993-03-01', 'Stefano', 'Timoney', 'DESNI_BEK', 'STARTER', 45, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1163, '1981-05-27', 'Car', 'Gheeraert', 'DESNO_KRILO', 'STARTER', 7, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1164, '2001-04-22', 'Gibbie', 'Windress', 'LEVI_BEK', 'STARTER', 82, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1165, '1999-09-11', 'Christian', 'Jacombs', 'LEVI_BEK', 'STARTER', 94, 106);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1166, '1994-12-17', 'Alford', 'Blackborough', 'DESNI_ŠTOPER', 'STARTER', 51, 106);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('107', 'Las Palmas', '107', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('107', '163', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1167, '1993-01-04', 'Darcy', 'Prandi', 'ZADNJI_VEZNI', 'STARTER', 30, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1168, '1996-08-14', 'Aylmar', 'Vynehall', 'LEVI_ŠTOPER', 'STARTER', 47, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1169, '1988-11-16', 'Davey', 'Buesnel', 'LEVI_ŠTOPER', 'STARTER', 113, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1170, '1990-05-27', 'Curtis', 'Hargreaves', 'LEVO_KRILO', 'STARTER', 18, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1171, '1995-02-19', 'Wang', 'Jutson', 'GOLMAN', 'STARTER', 45, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1172, '1998-06-15', 'Ulrick', 'Ehlerding', 'DESNI_BEK', 'STARTER', 41, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1173, '1995-08-31', 'Earle', 'Igoe', 'GOLMAN', 'STARTER', 110, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1174, '2000-10-22', 'Glendon', 'Fellnee', 'LEVI_ŠTOPER', 'STARTER', 82, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1175, '1993-12-04', 'Estevan', 'Rounsefull', 'LEVI_VEZNI', 'STARTER', 32, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1176, '1991-06-20', 'Urbanus', 'Deguara', 'LEVI_VEZNI', 'STARTER', 84, 107);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1177, '1986-10-20', 'Niven', 'Timbridge', 'LEVI_BEK', 'STARTER', 96, 107);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('108', 'La Coruna', '108', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('108', '163', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1178, '1984-07-24', 'Wiley', 'Glanz', 'DESNO_KRILO', 'STARTER', 92, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1179, '1997-08-30', 'Talbert', 'Rens', 'LEVI_BEK', 'STARTER', 3, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1180, '1988-03-22', 'Saundra', 'Mattei', 'LEVO_KRILO', 'STARTER', 98, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1181, '1999-08-25', 'Alberto', 'Brodway', 'DESNI_ŠTOPER', 'STARTER', 110, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1182, '2000-03-29', 'Aguie', 'Culmer', 'DESNI_ŠTOPER', 'STARTER', 42, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1183, '1988-06-15', 'Dani', 'Gowans', 'LEVI_BEK', 'STARTER', 32, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1184, '1986-09-24', 'Evered', 'Brunnstein', 'GOLMAN', 'STARTER', 64, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1185, '1991-06-08', 'Francois', 'Wick', 'DESNI_BEK', 'STARTER', 30, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1186, '1997-06-02', 'Brooks', 'Gitsham', 'GOLMAN', 'STARTER', 122, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1187, '1993-10-26', 'Fredrick', 'Hoyle', 'LEVI_VEZNI', 'STARTER', 5, 108);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1188, '1992-03-21', 'Hilarius', 'Oade', 'LEVI_VEZNI', 'STARTER', 84, 108);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('109', 'Malaga', '109', '108');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('109', '163', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1189, '1998-05-28', 'Ole', 'Sorsby', 'LEVO_KRILO', 'STARTER', 14, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1190, '2000-04-04', 'Gavan', 'Burberow', 'DESNO_KRILO', 'STARTER', 18, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1191, '1994-03-24', 'Verge', 'Vasilenko', 'DESNI_BEK', 'STARTER', 21, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1192, '1990-08-24', 'Finn', 'Domanek', 'DESNO_KRILO', 'STARTER', 26, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1193, '1987-05-21', 'Donal', 'Thurstan', 'DESNI_BEK', 'STARTER', 25, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1194, '1980-04-18', 'Thorpe', 'Mackerel', 'DESNO_KRILO', 'STARTER', 117, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1195, '2001-02-21', 'Rriocard', 'Endrici', 'DESNI_ŠTOPER', 'STARTER', 53, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1196, '1990-03-11', 'Zollie', 'Gladden', 'GOLMAN', 'STARTER', 45, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1197, '1983-10-13', 'Nappie', 'Isley', 'DESNI_ŠTOPER', 'STARTER', 56, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1198, '1988-05-03', 'Tucky', 'Cannaway', 'DESNI_ŠTOPER', 'STARTER', 42, 109);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1199, '1999-03-24', 'Jude', 'Collison', 'LEVO_KRILO', 'STARTER', 37, 109);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('110', 'Nurnberg', '110', '85');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('110', '126', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1200, '1981-09-24', 'Christiano', 'Ech', 'LEVI_BEK', 'STARTER', 39, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1201, '1995-03-17', 'Stirling', 'Sawden', 'LEVI_BEK', 'STARTER', 76, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1202, '1985-07-03', 'Torrey', 'Room', 'DESNI_ŠTOPER', 'STARTER', 96, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1203, '1981-08-17', 'Sigismund', 'Powis', 'LEVI_ŠTOPER', 'STARTER', 102, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1204, '1992-04-15', 'Kasper', 'Elston', 'LEVI_ŠTOPER', 'STARTER', 100, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1205, '1986-05-05', 'Cornell', 'Leehane', 'DESNI_BEK', 'STARTER', 44, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1206, '2000-04-14', 'Aguistin', 'Biddwell', 'DESNI_ŠTOPER', 'STARTER', 32, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1207, '1989-09-04', 'Aron', 'De Vaar', 'GOLMAN', 'STARTER', 113, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1208, '1995-03-15', 'Keith', 'Teesdale', 'DESNI_ŠTOPER', 'STARTER', 86, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1209, '1998-02-22', 'Taylor', 'Simenel', 'ZADNJI_VEZNI', 'STARTER', 113, 110);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1210, '1990-03-23', 'Luciano', 'Bowser', 'ZADNJI_VEZNI', 'STARTER', 44, 110);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('111', 'Hannover', '111', '85');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('111', '126', '10');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('111', '126', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1211, '1982-06-25', 'Vincents', 'Mochar', 'LEVI_ŠTOPER', 'STARTER', 96, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1212, '1998-12-12', 'Kendall', 'Sicily', 'LEVI_ŠTOPER', 'STARTER', 74, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1213, '1998-01-06', 'Krispin', 'de Copeman', 'DESNO_KRILO', 'STARTER', 60, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1214, '1982-01-07', 'Chan', 'Roughley', 'GOLMAN', 'STARTER', 105, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1215, '1985-09-13', 'Gayler', 'Biasotti', 'DESNI_VEZNI', 'STARTER', 93, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1216, '2001-01-21', 'Marten', 'Pow', 'LEVI_VEZNI', 'STARTER', 32, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1217, '1988-12-02', 'Jeffrey', 'Nesby', 'CENTARFOR', 'STARTER', 34, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1218, '1997-06-02', 'Conrad', 'Zammett', 'LEVI_VEZNI', 'STARTER', 74, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1219, '2000-10-19', 'Sanders', 'Oggers', 'LEVI_BEK', 'STARTER', 51, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1220, '1991-09-01', 'Tabb', 'Fronek', 'LEVI_BEK', 'STARTER', 25, 111);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1221, '1997-04-26', 'Nikolai', 'Chilvers', 'CENTARFOR', 'STARTER', 98, 111);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('112', 'Mainz', '112', '85');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('112', '126', '10');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('112', '126', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1222, '1982-05-26', 'Adrian', 'Heffernan', 'LEVI_BEK', 'STARTER', 120, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1223, '1989-08-21', 'Conway', 'Stuther', 'LEVI_ŠTOPER', 'STARTER', 3, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1224, '1981-10-25', 'Rickard', 'Delnevo', 'DESNI_BEK', 'STARTER', 14, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1225, '1987-12-01', 'Avictor', 'Coda', 'DESNI_VEZNI', 'STARTER', 15, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1226, '1991-10-20', 'Valentin', 'Westmoreland', 'GOLMAN', 'STARTER', 75, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1227, '1993-09-19', 'Arnaldo', 'Penkethman', 'LEVO_KRILO', 'STARTER', 68, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1228, '1980-09-05', 'Zacharias', 'O''Dennehy', 'LEVO_KRILO', 'STARTER', 92, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1229, '1983-08-10', 'Powell', 'Greswell', 'DESNI_BEK', 'STARTER', 111, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1230, '1986-08-05', 'Brnaba', 'Gravey', 'LEVI_VEZNI', 'STARTER', 58, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1231, '1996-08-09', 'Johny', 'Cleaves', 'DESNO_KRILO', 'STARTER', 73, 112);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1232, '1993-12-26', 'Rickard', 'Fullun', 'LEVI_VEZNI', 'STARTER', 54, 112);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('113', 'Hamburg', '113', '85');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('113', '126', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1233, '1986-03-24', 'Wat', 'Jamieson', 'DESNI_ŠTOPER', 'STARTER', 19, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1234, '1987-04-04', 'Prince', 'MacTrustey', 'DESNI_ŠTOPER', 'STARTER', 34, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1235, '2001-10-05', 'Kelly', 'Gillingwater', 'LEVO_KRILO', 'STARTER', 97, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1236, '1995-07-14', 'Xavier', 'Tonks', 'ZADNJI_VEZNI', 'STARTER', 37, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1237, '1982-01-17', 'Stephen', 'Mussington', 'DESNI_ŠTOPER', 'STARTER', 67, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1238, '1991-06-08', 'Craig', 'Shepherdson', 'DESNO_KRILO', 'STARTER', 59, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1239, '1995-10-18', 'Marchall', 'Braybrooks', 'GOLMAN', 'STARTER', 109, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1240, '1984-11-05', 'Brady', 'Abrashkin', 'DESNO_KRILO', 'STARTER', 86, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1241, '1986-08-16', 'Martino', 'Probey', 'ZADNJI_VEZNI', 'STARTER', 57, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1242, '1995-04-28', 'Ogdan', 'Comiskey', 'DESNI_BEK', 'STARTER', 74, 113);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1243, '1981-02-13', 'Neale', 'Devennie', 'DESNI_VEZNI', 'STARTER', 45, 113);
 
 INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('114', 'Fortuna Dusseldorf', '114', '85');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('114', '126', '11');
 INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('114', '126', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1244, '1996-04-01', 'Augusto', 'Itzhak', 'GOLMAN', 'STARTER', 25, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1245, '1994-01-31', 'Flem', 'Hebbs', 'LEVI_VEZNI', 'STARTER', 98, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1246, '1986-10-06', 'Cyrille', 'Keizman', 'DESNI_BEK', 'STARTER', 67, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1247, '1982-02-26', 'Zebedee', 'Gerrens', 'LEVI_ŠTOPER', 'STARTER', 108, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1248, '1997-09-20', 'Garrott', 'Wimbridge', 'LEVI_BEK', 'STARTER', 28, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1249, '1997-05-12', 'Thorsten', 'Littleover', 'LEVI_BEK', 'STARTER', 55, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1250, '2001-05-30', 'Ruddie', 'Waterfall', 'LEVI_ŠTOPER', 'STARTER', 33, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1251, '1985-01-22', 'Abba', 'Powter', 'ZADNJI_VEZNI', 'STARTER', 121, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1252, '1991-06-03', 'Woody', 'Jinkinson', 'DESNI_VEZNI', 'STARTER', 51, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1253, '1996-04-10', 'Wilhelm', 'Casini', 'LEVI_VEZNI', 'STARTER', 3, 114);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1254, '1980-12-07', 'Sig', 'Hendricks', 'ZADNJI_VEZNI', 'STARTER', 34, 114);
 
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('115', 'Caen', '115', '32');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('115', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('115', '188', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1255, '1985-03-21', 'Israel', 'Hinners', 'DESNI_ŠTOPER', 'STARTER', 54, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1256, '1987-03-09', 'Gabe', 'Halford', 'DESNI_BEK', 'STARTER', 63, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1257, '1995-09-22', 'Derry', 'Baitman', 'DESNI_BEK', 'STARTER', 9, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1258, '1985-10-23', 'Terrell', 'Gillise', 'DESNI_VEZNI', 'STARTER', 110, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1259, '1999-12-02', 'Cleavland', 'Tizzard', 'LEVO_KRILO', 'STARTER', 1, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1260, '1998-06-14', 'Tedd', 'Witherop', 'ZADNJI_VEZNI', 'STARTER', 32, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1261, '1985-02-04', 'Ed', 'Joderli', 'LEVO_KRILO', 'STARTER', 109, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1262, '1994-06-25', 'Hilarius', 'Sparsholt', 'LEVI_ŠTOPER', 'STARTER', 92, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1263, '1999-01-04', 'Stanislaus', 'Adshead', 'DESNI_ŠTOPER', 'STARTER', 4, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1264, '2000-08-24', 'Arnold', 'Kenafaque', 'LEVI_ŠTOPER', 'STARTER', 63, 115);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1265, '1990-01-13', 'Allyn', 'Simmons', 'LEVI_VEZNI', 'STARTER', 121, 115);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('116', 'Guingamp', '116', '32');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('116', '188', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('116', '188', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1266, '2001-11-16', 'Antone', 'Thing', 'DESNI_ŠTOPER', 'STARTER', 6, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1267, '2000-07-15', 'Garrot', 'Canape', 'CENTARFOR', 'STARTER', 52, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1268, '1988-07-02', 'Fairleigh', 'MacNally', 'DESNO_KRILO', 'STARTER', 31, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1269, '1993-06-29', 'Alain', 'Tinkham', 'LEVI_ŠTOPER', 'STARTER', 13, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1270, '1991-07-28', 'Marion', 'Ianne', 'DESNI_BEK', 'STARTER', 116, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1271, '1988-04-16', 'Yard', 'Buddle', 'LEVI_ŠTOPER', 'STARTER', 32, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1272, '1987-03-19', 'Beale', 'Dawton', 'DESNI_ŠTOPER', 'STARTER', 8, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1273, '1984-08-01', 'Rriocard', 'Cluderay', 'ZADNJI_VEZNI', 'STARTER', 117, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1274, '1980-07-08', 'Stephanus', 'Kington', 'GOLMAN', 'STARTER', 68, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1275, '2000-06-20', 'Halsy', 'Lacaze', 'LEVI_ŠTOPER', 'STARTER', 73, 116);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1276, '2002-01-06', 'Falkner', 'Goundsy', 'CENTARFOR', 'STARTER', 47, 116);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('117', 'Troyes', '117', '32');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('117', '188', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1277, '1986-09-14', 'Ellsworth', 'Story', 'DESNI_VEZNI', 'STARTER', 98, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1278, '1981-04-13', 'Nappy', 'Dwerryhouse', 'GOLMAN', 'STARTER', 52, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1279, '2000-08-11', 'Nevile', 'Larver', 'LEVO_KRILO', 'STARTER', 37, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1280, '1984-11-12', 'Trace', 'Tomczak', 'LEVI_BEK', 'STARTER', 20, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1281, '1996-07-19', 'Jermayne', 'Fortesquieu', 'DESNO_KRILO', 'STARTER', 23, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1282, '1992-05-27', 'Tuckie', 'Grunnill', 'LEVI_BEK', 'STARTER', 91, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1283, '1987-01-14', 'Noam', 'Sargent', 'LEVI_VEZNI', 'STARTER', 21, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1284, '1994-02-05', 'Murry', 'Kelland', 'LEVI_BEK', 'STARTER', 73, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1285, '1983-09-30', 'Casar', 'Crosse', 'LEVO_KRILO', 'STARTER', 13, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1286, '1999-09-17', 'Giavani', 'Rennolds', 'LEVI_BEK', 'STARTER', 51, 117);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1287, '1981-03-29', 'Nikolai', 'Coultar', 'DESNI_ŠTOPER', 'STARTER', 112, 117);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('118', 'Frosinone', '118', '47');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('118', '73', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1288, '1996-01-25', 'Ban', 'Huddles', 'DESNI_BEK', 'STARTER', 71, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1289, '1985-06-02', 'Normand', 'Rennox', 'CENTARFOR', 'STARTER', 92, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1290, '1990-05-11', 'Giffer', 'Libero', 'ZADNJI_VEZNI', 'STARTER', 46, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1291, '1989-01-07', 'Martino', 'Urwin', 'GOLMAN', 'STARTER', 114, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1292, '1997-05-22', 'Rinaldo', 'Bonifant', 'DESNI_ŠTOPER', 'STARTER', 61, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1293, '1989-06-16', 'Gerik', 'Simms', 'CENTARFOR', 'STARTER', 53, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1294, '1986-08-27', 'Kane', 'Lount', 'CENTARFOR', 'STARTER', 111, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1295, '1996-08-16', 'Gawain', 'Tropman', 'DESNI_ŠTOPER', 'STARTER', 103, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1296, '1982-12-08', 'Elmo', 'Clemo', 'ZADNJI_VEZNI', 'STARTER', 94, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1297, '1995-10-19', 'Steffen', 'Itzkovwitch', 'LEVI_ŠTOPER', 'STARTER', 55, 118);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1298, '1985-07-12', 'Kile', 'Kingswood', 'DESNI_ŠTOPER', 'STARTER', 94, 118);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('119', 'Chievo', '119', '47');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('119', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('119', '73', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1299, '1999-10-27', 'Barnie', 'Dowyer', 'DESNI_VEZNI', 'STARTER', 107, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1300, '1999-06-13', 'Jerrome', 'Baccup', 'LEVI_BEK', 'STARTER', 12, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1301, '2001-07-01', 'Jereme', 'McPartlin', 'CENTARFOR', 'STARTER', 116, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1302, '1988-01-16', 'Dene', 'Mertel', 'LEVI_BEK', 'STARTER', 103, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1303, '1988-12-02', 'Connie', 'Chazotte', 'LEVI_ŠTOPER', 'STARTER', 7, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1304, '1994-02-04', 'Jarred', 'Giacoppoli', 'GOLMAN', 'STARTER', 81, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1305, '1992-08-15', 'Esteban', 'Aleksahkin', 'DESNI_VEZNI', 'STARTER', 98, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1306, '2002-01-25', 'Jacky', 'Gettins', 'DESNO_KRILO', 'STARTER', 85, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1307, '1989-05-22', 'Ezekiel', 'Gower', 'GOLMAN', 'STARTER', 18, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1308, '1981-01-03', 'Horace', 'Ehrat', 'DESNI_VEZNI', 'STARTER', 107, 119);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1309, '1980-07-21', 'Jon', 'Breakwell', 'DESNI_ŠTOPER', 'STARTER', 90, 119);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('120', 'SPAL', '120', '47');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('120', '73', '10');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('120', '73', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1310, '1991-12-26', 'Orran', 'Calles', 'GOLMAN', 'STARTER', 66, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1311, '1997-04-03', 'Sunny', 'Winny', 'LEVI_BEK', 'STARTER', 54, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1312, '1980-04-20', 'Randall', 'Mack', 'DESNI_BEK', 'STARTER', 20, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1313, '1992-09-06', 'Vick', 'McKenzie', 'GOLMAN', 'STARTER', 9, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1314, '1990-10-22', 'Matteo', 'Van Son', 'GOLMAN', 'STARTER', 114, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1315, '1992-08-20', 'Doy', 'Tuison', 'GOLMAN', 'STARTER', 117, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1316, '1991-09-04', 'Milt', 'Marzelli', 'CENTARFOR', 'STARTER', 103, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1317, '1982-10-11', 'Pembroke', 'Pitkaithly', 'DESNO_KRILO', 'STARTER', 124, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1318, '1996-09-25', 'Zacharia', 'Sherebrooke', 'LEVO_KRILO', 'STARTER', 67, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1319, '1991-08-19', 'Milt', 'Kendal', 'ZADNJI_VEZNI', 'STARTER', 65, 120);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1320, '1998-11-18', 'Morgen', 'Caso', 'CENTARFOR', 'STARTER', 62, 120);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('121', 'Empoli', '121', '47');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('121', '73', '10');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1321, '1987-01-05', 'Archibald', 'Atwel', 'LEVO_KRILO', 'STARTER', 115, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1322, '1991-05-28', 'Duke', 'Colt', 'GOLMAN', 'STARTER', 25, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1323, '1980-09-04', 'Brooks', 'McLeman', 'ZADNJI_VEZNI', 'STARTER', 16, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1324, '1995-10-31', 'Orland', 'Caldicott', 'DESNI_ŠTOPER', 'STARTER', 121, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1325, '1981-08-01', 'Wainwright', 'Crouch', 'LEVI_ŠTOPER', 'STARTER', 23, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1326, '1987-10-06', 'Norbert', 'Sibthorpe', 'DESNI_BEK', 'STARTER', 12, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1327, '1995-10-07', 'Bruce', 'Heffernon', 'DESNO_KRILO', 'STARTER', 86, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1328, '1998-10-31', 'Scarface', 'Gymlett', 'LEVI_ŠTOPER', 'STARTER', 4, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1329, '1997-03-19', 'Lanie', 'Kubat', 'CENTARFOR', 'STARTER', 52, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1330, '1991-05-30', 'Elihu', 'Edge', 'DESNI_BEK', 'STARTER', 65, 121);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1331, '1998-02-20', 'Barnabas', 'Gotthard', 'LEVO_KRILO', 'STARTER', 4, 121);
+
+INSERT INTO `scores`.`fudblaski_klub` (`id`, `naziv`, `trener_id`, `zemlja_id`) VALUES ('122', 'Verona', '122', '47');
+INSERT INTO `scores`.`fudbalski_klub_lige` (`fudbalski_klub_id`, `liga_id`, `sezona_id`) VALUES ('122', '73', '9');
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1332, '1980-11-28', 'Moses', 'Hursey', 'CENTARFOR', 'STARTER', 86, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1333, '1986-12-18', 'Car', 'Kayser', 'DESNI_ŠTOPER', 'STARTER', 28, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1334, '1981-07-14', 'Thibaut', 'Bettis', 'GOLMAN', 'STARTER', 16, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1335, '1982-10-15', 'Cordie', 'Sambath', 'DESNI_VEZNI', 'STARTER', 72, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1336, '1986-05-21', 'Vladimir', 'Morkham', 'GOLMAN', 'STARTER', 55, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1337, '1982-06-10', 'Halsey', 'Dodman', 'DESNO_KRILO', 'STARTER', 33, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1338, '1983-05-08', 'Lucas', 'Rossey', 'ZADNJI_VEZNI', 'STARTER', 45, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1339, '1997-02-28', 'Nathanial', 'Lademann', 'DESNI_ŠTOPER', 'STARTER', 123, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1340, '1997-08-25', 'Piggy', 'Bryns', 'DESNI_ŠTOPER', 'STARTER', 86, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1341, '1988-08-27', 'My', 'Oxenbury', 'DESNI_VEZNI', 'STARTER', 118, 122);
+insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1342, '1998-09-27', 'Isador', 'Bernardy', 'LEVI_VEZNI', 'STARTER', 49, 122);
