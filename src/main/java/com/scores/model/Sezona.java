@@ -17,6 +17,6 @@ public class Sezona {
     private Long id;
 
     @Column
-    private Short godina;
+    private String godina;
 
 }

@@ -24,7 +24,7 @@ public class Trener {
     private String prezime;
 
     @Column
-    private LocalDate godinjaRodjenja;
+    private LocalDate godinaRodjenja;
 
     @ManyToOne
     private Zemlja zemlja;
