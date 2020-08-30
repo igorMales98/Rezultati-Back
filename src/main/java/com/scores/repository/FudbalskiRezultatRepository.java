@@ -17,4 +17,8 @@ public interface FudbalskiRezultatRepository extends JpaRepository<FudbalskiRezu
 
     @Query("SELECT fr FROM FudbalskiRezultat fr WHERE fr.vremeOdrzavanjaUtakmice BETWEEN ?1 AND ?2")
     List<FudbalskiRezultat> findAllForTheDate(LocalDateTime d1, LocalDateTime d2);
+
+    @Query(value = "SELECT * FROM fudbalski_rezultat fr WHERE fr.liga_id = :ligaId AND fr.sezona_id = :sezonaId AND" +
+            "(fr.domacin_id = :klubId OR fr.gost_id = :klubId)", nativeQuery = true)
+    List<FudbalskiRezultat> getForBodovi(Long ligaId, Long sezonaId, Long klubId);
 }

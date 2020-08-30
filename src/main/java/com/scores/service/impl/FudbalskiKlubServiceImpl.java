@@ -19,7 +19,7 @@ public class FudbalskiKlubServiceImpl implements FudbalskiKlubService {
     }
 
     @Override
-    public List<FudblaskiKlub> getKluboviFromLiga(Long ligaId) {
-        return fudbalskiKlubRepository.findByLigaId(ligaId);
+    public List<FudblaskiKlub> getKluboviFromLigaAndSezona(Long ligaId, Long sezonaId) {
+        return fudbalskiKlubRepository.findByLigaIdAndSezonaId(ligaId, sezonaId);
     }
 }

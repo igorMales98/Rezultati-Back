@@ -2,7 +2,9 @@ package com.scores.controller;
 
 import com.scores.dto.FudbalskiRezultatDTO;
 import com.scores.mapper.FudbalskiRezultatDTOMapper;
+import com.scores.model.FudbalskiRezultat;
 import com.scores.service.FudbalskiRezultatService;
+import com.sun.org.apache.regexp.internal.RE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -47,6 +49,31 @@ public class FudbalskiRezultatController {
         System.out.println(date);
         try {
             List<FudbalskiRezultatDTO> fudbalskiRezultati = this.fudbalskiRezultatService.getAllForTheDate(date).stream().
+                    map(fudbalskiRezultatDTOMapper::toDto).collect(Collectors.toList());
+            return new ResponseEntity<>(fudbalskiRezultati, HttpStatus.OK);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping(value = "/bodovi/{ligaId}/{sezonaId}/{klubId}")
+    public ResponseEntity<Integer> getBodovi(@PathVariable("ligaId") Long ligaId, @PathVariable("sezonaId") Long sezonaId,
+                                             @PathVariable("klubId") Long klubId) {
+        try {
+            Integer bodovi = this.fudbalskiRezultatService.getBodovi(ligaId, sezonaId, klubId);
+            return new ResponseEntity<>(bodovi, HttpStatus.OK);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping(value = "/{ligaId}/{sezonaId}/{klubId}")
+    public ResponseEntity<List<FudbalskiRezultatDTO>> getRezultatiForKlub(@PathVariable("ligaId") Long ligaId, @PathVariable("sezonaId") Long sezonaId,
+                                                                          @PathVariable("klubId") Long klubId) {
+        try {
+            List<FudbalskiRezultatDTO> fudbalskiRezultati = this.fudbalskiRezultatService.getRezultatiForKlub(ligaId, sezonaId, klubId).stream().
                     map(fudbalskiRezultatDTOMapper::toDto).collect(Collectors.toList());
             return new ResponseEntity<>(fudbalskiRezultati, HttpStatus.OK);
         } catch (Exception e) {
