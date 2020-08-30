@@ -27,4 +27,6 @@ public class FudblaskiKlub extends Klub {
     @OneToMany(mappedBy = "fudblaskiKlub")
     private Set<Fudbaler> fudbaleri;
 
+
+
 }

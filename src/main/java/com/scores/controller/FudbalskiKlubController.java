@@ -29,10 +29,10 @@ public class FudbalskiKlubController {
         this.fudbalskiKlubDTOMapper = fudbalskiKlubDTOMapper;
     }
 
-    @GetMapping(value = "/{ligaId}")
-    public ResponseEntity<List<FudbalskiKlubDTO>> getKluboviFromLiga(@PathVariable("ligaId") Long id) {
+    @GetMapping(value = "/{ligaId}/{sezonaId}")
+    public ResponseEntity<List<FudbalskiKlubDTO>> getKluboviFromLiga(@PathVariable("ligaId") Long id, @PathVariable("sezonaId") Long sezonaId) {
         try {
-            List<FudbalskiKlubDTO> kluboviDtos = this.fudbalskiKlubService.getKluboviFromLiga(id).stream()
+            List<FudbalskiKlubDTO> kluboviDtos = this.fudbalskiKlubService.getKluboviFromLigaAndSezona(id, sezonaId).stream()
                     .map(fudbalskiKlubDTOMapper::toDto).collect(Collectors.toList());
             return new ResponseEntity<>(kluboviDtos, HttpStatus.OK);
         } catch (Exception e) {

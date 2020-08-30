@@ -38,4 +38,67 @@ public class FudbalskiRezultat {
     @Column
     private Short goloviGost;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public LocalDateTime getVremeOdrzavanjaUtakmice() {
+        return vremeOdrzavanjaUtakmice;
+    }
+
+    public void setVremeOdrzavanjaUtakmice(LocalDateTime vremeOdrzavanjaUtakmice) {
+        this.vremeOdrzavanjaUtakmice = vremeOdrzavanjaUtakmice;
+    }
+
+    public FudblaskiKlub getDomacin() {
+        return domacin;
+    }
+
+    public void setDomacin(FudblaskiKlub domacin) {
+        this.domacin = domacin;
+    }
+
+    public FudblaskiKlub getGost() {
+        return gost;
+    }
+
+    public void setGost(FudblaskiKlub gost) {
+        this.gost = gost;
+    }
+
+    public Liga getLiga() {
+        return liga;
+    }
+
+    public void setLiga(Liga liga) {
+        this.liga = liga;
+    }
+
+    public Sezona getSezona() {
+        return sezona;
+    }
+
+    public void setSezona(Sezona sezona) {
+        this.sezona = sezona;
+    }
+
+    public Short getGoloviDomacin() {
+        return goloviDomacin;
+    }
+
+    public void setGoloviDomacin(Short goloviDomacin) {
+        this.goloviDomacin = goloviDomacin;
+    }
+
+    public Short getGoloviGost() {
+        return goloviGost;
+    }
+
+    public void setGoloviGost(Short goloviGost) {
+        this.goloviGost = goloviGost;
+    }
 }

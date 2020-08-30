@@ -67,4 +67,28 @@ public class FudbalskiRezultatServiceImpl implements FudbalskiRezultatService {
 
         return fudbalskiRezultatRepository.findAllForTheDate(d1, d2);
     }
+
+    @Override
+    public Integer getBodovi(Long ligaId, Long sezonaId, Long klubId) {
+        List<FudbalskiRezultat> rezultati = this.fudbalskiRezultatRepository.getForBodovi(ligaId, sezonaId, klubId);
+        int bodovi = 0;
+
+        for (FudbalskiRezultat fudbalskiRezultat : rezultati) {
+            if (fudbalskiRezultat.getGoloviDomacin().equals(fudbalskiRezultat.getGoloviGost())) {
+                bodovi += 1;
+            } else {
+                if (fudbalskiRezultat.getDomacin().getId().equals(klubId) && fudbalskiRezultat.getGoloviDomacin() > fudbalskiRezultat.getGoloviGost()) {
+                    bodovi += 3;
+                } else if (fudbalskiRezultat.getGost().getId().equals(klubId) && fudbalskiRezultat.getGoloviGost() > fudbalskiRezultat.getGoloviDomacin()) {
+                    bodovi += 3;
+                }
+            }
+        }
+        return bodovi;
+    }
+
+    @Override
+    public List<FudbalskiRezultat> getRezultatiForKlub(Long ligaId, Long sezonaId, Long klubId) {
+        return fudbalskiRezultatRepository.getForBodovi(ligaId, sezonaId, klubId);
+    }
 }

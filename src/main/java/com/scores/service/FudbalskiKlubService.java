@@ -5,5 +5,5 @@ import com.scores.model.FudblaskiKlub;
 import java.util.List;
 
 public interface FudbalskiKlubService {
-    List<FudblaskiKlub> getKluboviFromLiga(Long ligaId);
+    List<FudblaskiKlub> getKluboviFromLigaAndSezona(Long ligaId, Long sezonaId);
 }
