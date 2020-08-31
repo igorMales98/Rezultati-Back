@@ -3349,4 +3349,3 @@ insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, sta
 insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1341, '1988-08-27', 'My', 'Oxenbury', 'DESNI_VEZNI', 'STARTER', 118, 122);
 insert into `scores`.`fudbaler` (id, datum_rodjenja, ime, prezime, pozicija, status, zemlja_rodjenja_id, fudbalski_klub_id) values (1342, '1998-09-27', 'Isador', 'Bernardy', 'LEVI_VEZNI', 'STARTER', 49, 122);
 
-INSERT INTO `scores`.`informacija` (`id`, `posed_domacin`, `posed_gost`, `sutevi_domacin`, `sutevi_gost`) VALUES ('1', '60', '40', '8', '3');
