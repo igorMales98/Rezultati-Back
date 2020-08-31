@@ -38,6 +38,9 @@ public class FudbalskiRezultat {
     @Column
     private Short goloviGost;
 
+    @OneToOne(mappedBy = "fudbalskiRezultat")
+    private Informacija informacija;
+
     public Long getId() {
         return id;
     }

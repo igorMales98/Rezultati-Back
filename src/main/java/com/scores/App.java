@@ -21,6 +21,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -153,12 +154,40 @@ public class App {
                     DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"));
             insertFRWithQuery(id, Short.parseShort(rezultati.get(4)), Short.parseShort(rezultati.get(5)), datum,
                     Long.parseLong(rezultati.get(2)), Long.parseLong(rezultati.get(3)), ligaId, sezonaId);
+            Random random = new Random();
+            int rand = random.nextInt(30) + 35;
+            if (ligaId.equals(42L)) {
+                insertInfoWithQuery(id, (float) rand, (float) 100 - rand, Integer.parseInt(rezultati.get(11)),
+                        Integer.parseInt(rezultati.get(12)), Integer.parseInt(rezultati.get(19)), Integer.parseInt(rezultati.get(20)),
+                        Integer.parseInt(rezultati.get(21)), Integer.parseInt(rezultati.get(22)));
+            } else {
+                insertInfoWithQuery(id, (float) rand, (float) 100 - rand, Integer.parseInt(rezultati.get(10)),
+                        Integer.parseInt(rezultati.get(11)), Integer.parseInt(rezultati.get(18)), Integer.parseInt(rezultati.get(19)),
+                        Integer.parseInt(rezultati.get(20)), Integer.parseInt(rezultati.get(21)));
+            }
             id++;
         }
         return id;
     }
 
-    public void insertFRWithQuery(Long id, Short goloviDomacin, Short goloviGost, LocalDateTime vreme, Long domacinId, Long gostId, Long ligaId, Long sezonaId) {
+    public void insertInfoWithQuery(Long id, Float posedDomacin, Float posedGost, Integer suteviDomacin, Integer suteviGost,
+                                    Integer zutiDomacin, Integer zutiGost, Integer crveniDomacin, Integer crveniGost) {
+        entityManager.createNativeQuery("INSERT INTO informacija (id, posed_domacin, posed_gost, sutevi_domacin, sutevi_gost, broj_zutih_kartona_domacin, broj_zutih_kartona_gost, broj_crvenih_kartona_domacin, broj_crvenih_kartona_gost, rezultat_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);")
+                .setParameter(1, id)
+                .setParameter(2, posedDomacin)
+                .setParameter(3, posedGost)
+                .setParameter(4, suteviDomacin)
+                .setParameter(5, suteviGost)
+                .setParameter(6, zutiDomacin)
+                .setParameter(7, zutiGost)
+                .setParameter(8, crveniDomacin)
+                .setParameter(9, crveniGost)
+                .setParameter(10, id)
+                .executeUpdate();
+    }
+
+    public void insertFRWithQuery(Long id, Short goloviDomacin, Short goloviGost, LocalDateTime vreme, Long domacinId,
+                                  Long gostId, Long ligaId, Long sezonaId) {
         entityManager.createNativeQuery("INSERT INTO fudbalski_rezultat (id, golovi_domacin, golovi_gost, vreme_odrzavanja_utakmice, domacin_id, gost_id, liga_id, sezona_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?);")
                 .setParameter(1, id)
                 .setParameter(2, goloviDomacin)
