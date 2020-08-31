@@ -17,4 +17,5 @@ public class FudbalskiRezultatDTO {
     private SezonaDTO sezona;
     private Short goloviDomacin;
     private Short goloviGost;
+    private InformacijaDTO informacija;
 }
