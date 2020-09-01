@@ -1,0 +1,104 @@
+schema {
+    query: Query
+}
+
+type Query {
+    allZemlja: [Zemlja]
+    zemlja(id: ID): Zemlja
+    fudbalskiKlubovi(ligaId: ID, sezonaId: ID): [FudbalskiKlub]
+}
+
+type FudbalskiRezultat {
+    id: String
+    vremeOdrzavanjaUtakmice: String
+    domacin: FudbalskiKlub
+    gost: FudbalskiKlub
+    liga: Liga
+    sezona: Sezona
+    goloviDomacin: Int
+    goloviGost: Int
+    informacija: Informacija
+}
+
+type Informacija {
+    id: String
+    fudbalskiRezultat: FudbalskiRezultat
+    posedDomacin: Float
+    posedGost: Float
+    suteviDomacin: Int
+    suteviGost: Int
+    brojZutihKartonaDomacin: Int
+    brojZutihKartonaGost: Int
+    brojCrvenihKartonaDomacin: Int
+    brojCrvenihKartonaGost: Int
+}
+
+type FudbalskiKlub {
+    id: String
+    naziv: String
+    zemlja: Zemlja
+    trener: Trener
+    fudbaleri: [Fudbaler]
+}
+
+type Fudbaler {
+    id: String
+    ime: String
+    prezime: String
+    datumRodjenja: String
+    zemljaRodjenja: Zemlja
+    pozicija: PozicijaFudbal
+    fudbalskiKlub: FudbalskiKlub
+    status: StatusUTimu
+}
+
+enum StatusUTimu {
+    STARTER,
+    REZERVNI
+}
+
+enum PozicijaFudbal {
+    GOLMAN,
+    LEVI_BEK,
+    DESNI_BEK,
+    LEVI_STOPER,
+    DESNI_STOPER,
+    ZADNJI_VEZNI,
+    LEVI_VEZNI,
+    DESNI_VEZNI,
+    LEVO_KRILO,
+    DESNO_KRILO,
+    CENTARFOR
+}
+
+type Trener {
+    id: String
+    ime: String
+    prezime: String
+    godinaRodjenja: String
+    zemlja: Zemlja
+    sport: Sport
+}
+
+type Zemlja {
+    id: String
+    naziv: String
+    lige: [Liga]
+}
+
+type Liga {
+    id: String
+    naziv: String
+    zemlja: Zemlja
+    sport: Sport
+}
+
+type Sport {
+    id: String
+    naziv: String
+}
+
+type Sezona {
+    id: String
+    godina: String
+}

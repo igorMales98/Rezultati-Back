@@ -1,9 +1,15 @@
 package com.scores.graphql;
 
 import com.scores.graphql.datafetcher.AllZemljaDataFetcher;
+import com.scores.graphql.datafetcher.FudbalskiKluboviDataFetcher;
 import com.scores.graphql.datafetcher.ZemljaDataFetcher;
+import com.scores.model.Klub;
 import graphql.GraphQL;
+import graphql.TypeResolutionEnvironment;
+import graphql.schema.DataFetcher;
+import graphql.schema.GraphQLObjectType;
 import graphql.schema.GraphQLSchema;
+import graphql.schema.TypeResolver;
 import graphql.schema.idl.RuntimeWiring;
 import graphql.schema.idl.SchemaGenerator;
 import graphql.schema.idl.SchemaParser;
@@ -20,7 +26,7 @@ import java.io.IOException;
 @Service
 public class GraphQLService {
 
-    @Value("classpath:zemlja.graphql")
+    @Value("classpath:rezultati.graphql")
     Resource resource;
 
     private GraphQL graphQL;
@@ -30,6 +36,9 @@ public class GraphQLService {
 
     @Autowired
     private ZemljaDataFetcher zemljaDataFetcher;
+
+    @Autowired
+    private FudbalskiKluboviDataFetcher fudbalskiKluboviDataFetcher;
 
     @PostConstruct
     private void loadSchema() throws IOException {
@@ -42,9 +51,10 @@ public class GraphQLService {
 
     private RuntimeWiring buildRuntimeWiring() {
         return RuntimeWiring.newRuntimeWiring()
-                .type("ZemljaQuery", typeWiring -> typeWiring
+                .type("Query", typeWiring -> typeWiring
                         .dataFetcher("allZemlja", allZemljaDataFetcher)
-                        .dataFetcher("zemlja", zemljaDataFetcher))
+                        .dataFetcher("zemlja", zemljaDataFetcher)
+                        .dataFetcher("fudbalskiKlubovi", fudbalskiKluboviDataFetcher))
                 .build();
     }
 
