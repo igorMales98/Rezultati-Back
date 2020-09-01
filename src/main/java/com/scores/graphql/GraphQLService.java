@@ -1,8 +1,6 @@
 package com.scores.graphql;
 
-import com.scores.graphql.datafetcher.AllZemljaDataFetcher;
-import com.scores.graphql.datafetcher.FudbalskiKluboviDataFetcher;
-import com.scores.graphql.datafetcher.ZemljaDataFetcher;
+import com.scores.graphql.datafetcher.*;
 import com.scores.model.Klub;
 import graphql.GraphQL;
 import graphql.TypeResolutionEnvironment;
@@ -40,6 +38,15 @@ public class GraphQLService {
     @Autowired
     private FudbalskiKluboviDataFetcher fudbalskiKluboviDataFetcher;
 
+    @Autowired
+    private RezultatiForDateDataFetcher rezultatiForDateDataFetcher;
+
+    @Autowired
+    private BodoviDataFetcher bodoviDataFetcher;
+
+    @Autowired
+    private RezultatiForKlubDataFetcher rezultatiForKlubDataFetcher;
+
     @PostConstruct
     private void loadSchema() throws IOException {
         File schemaFile = resource.getFile();
@@ -54,7 +61,10 @@ public class GraphQLService {
                 .type("Query", typeWiring -> typeWiring
                         .dataFetcher("allZemlja", allZemljaDataFetcher)
                         .dataFetcher("zemlja", zemljaDataFetcher)
-                        .dataFetcher("fudbalskiKlubovi", fudbalskiKluboviDataFetcher))
+                        .dataFetcher("fudbalskiKlubovi", fudbalskiKluboviDataFetcher)
+                        .dataFetcher("rezultatiForDate", rezultatiForDateDataFetcher)
+                        .dataFetcher("bodovi", bodoviDataFetcher)
+                        .dataFetcher("rezultatiForKlub", rezultatiForKlubDataFetcher))
                 .build();
     }
 

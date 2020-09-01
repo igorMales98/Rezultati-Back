@@ -6,6 +6,9 @@ type Query {
     allZemlja: [Zemlja]
     zemlja(id: ID): Zemlja
     fudbalskiKlubovi(ligaId: ID, sezonaId: ID): [FudbalskiKlub]
+    rezultatiForDate(date: String): [FudbalskiRezultat]
+    bodovi(ligaId: ID, sezonaId: ID, klubId: ID): Int
+    rezultatiForKlub(ligaId: ID, sezonaId: ID, klubId: ID): [FudbalskiRezultat]
 }
 
 type FudbalskiRezultat {
