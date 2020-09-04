@@ -6,7 +6,7 @@ type Query {
     allZemlja: [Zemlja]
     zemlja(id: ID): Zemlja
     fudbalskiKlubovi(ligaId: ID, sezonaId: ID): [FudbalskiKlub]
-    rezultatiForDate(date: String): [FudbalskiRezultat]
+    rezultatiForDate(date: ID): [FudbalskiRezultat]
     bodovi(ligaId: ID, sezonaId: ID, klubId: ID): Int
     rezultatiForKlub(ligaId: ID, sezonaId: ID, klubId: ID): [FudbalskiRezultat]
 }
@@ -50,7 +50,7 @@ type Fudbaler {
     prezime: String
     datumRodjenja: String
     zemljaRodjenja: Zemlja
-    pozicija: PozicijaFudbal
+    pozicija: String
     fudbalskiKlub: FudbalskiKlub
     status: StatusUTimu
 }
