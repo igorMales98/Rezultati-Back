@@ -24,13 +24,10 @@ public class RezultatiForDateDataFetcher implements DataFetcher<List<FudbalskiRe
     @Override
     public List<FudbalskiRezultat> get(DataFetchingEnvironment dataFetchingEnvironment) {
         String date = dataFetchingEnvironment.getArgument("date").toString();
-        System.out.println("DA LI UOPSTE OVDE UDJE " + date);
         String datum = date.substring(0, 4) + "-" + date.substring(4, 6) + "-" + date.substring(6, 8) + " " + date.substring(8, 10)
                 + ":" + date.substring(10);
-        System.out.println("datum je " + datum);
         try {
             Date date1 = new SimpleDateFormat("yyyy-MM-dd HH:mm").parse(datum);
-            System.out.println("datum je " + date1);
             Calendar cal = Calendar.getInstance();
             cal.setTime(date1);
             LocalDateTime d1 = getFirstDate(cal);

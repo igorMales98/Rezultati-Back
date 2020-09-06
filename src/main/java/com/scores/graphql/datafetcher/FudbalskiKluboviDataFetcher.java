@@ -18,9 +18,7 @@ public class FudbalskiKluboviDataFetcher implements DataFetcher<List<FudblaskiKl
     @Override
     public List<FudblaskiKlub> get(DataFetchingEnvironment dataFetchingEnvironment) {
         String ligaId = dataFetchingEnvironment.getArgument("ligaId");
-        System.out.println("id lige je " + ligaId);
         String sezonaId = dataFetchingEnvironment.getArgument("sezonaId");
-        System.out.println("id sezone je " + sezonaId);
 
         return fudbalskiKlubRepository.findByLigaIdAndSezonaId(Long.parseLong(ligaId), Long.parseLong(sezonaId));
     }

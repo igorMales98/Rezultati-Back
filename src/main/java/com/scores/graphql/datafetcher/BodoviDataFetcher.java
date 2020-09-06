@@ -17,7 +17,6 @@ public class BodoviDataFetcher implements DataFetcher<Integer> {
 
     @Override
     public Integer get(DataFetchingEnvironment dataFetchingEnvironment) {
-        System.out.println("USAO JE U BODOVE");
         Long ligaId = Long.parseLong(dataFetchingEnvironment.getArgument("ligaId"));
         Long sezonaId = Long.parseLong(dataFetchingEnvironment.getArgument("sezonaId"));
         Long klubId = Long.parseLong(dataFetchingEnvironment.getArgument("klubId"));

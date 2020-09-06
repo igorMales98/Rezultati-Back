@@ -22,13 +22,9 @@ public class GrqphQLController {
 
     @PostMapping
     public ResponseEntity<Object> executeQuery(@RequestBody GraphQLQuery query) {
-        System.out.println("e usao je i upit je " + query.toString());
 
         String queryWithoutParams = query.getQuery().substring(6);
-        System.out.println("query bez param ke " + queryWithoutParams);
-
         String bezdolara = queryWithoutParams.replace("$", "");
-        System.out.println("bez dolara" + bezdolara);
 
         if (!query.getVariables().isEmpty()) {
             for (Map.Entry<String, String> variable : query.getVariables().entrySet()) {
@@ -36,11 +32,8 @@ public class GrqphQLController {
             }
         }
 
-        System.out.println("e sad je " + bezdolara);
-
         if (bezdolara.contains("bodovi")) {
             bezdolara = bezdolara.substring(0, bezdolara.length() - 14);
-            System.out.println("e sad je ako su bodovi " + bezdolara);
         }
 
         try {
